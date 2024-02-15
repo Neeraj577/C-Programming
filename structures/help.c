@@ -9,10 +9,11 @@ int factorial(int n)
 int main(void)
 {
     int p = 0;
-    printf("Enter a number :\n");
+    printf("Enter a number :");
 
     scanf("%d", &p);
-    printf("Hello Good Morninng!\n");
+
+    printf("\t\tHello Good Morninng!\n");
     printf("Factorial of %d : %d\n", p, factorial(p));
 
     return 0;

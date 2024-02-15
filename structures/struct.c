@@ -15,7 +15,7 @@ struct Student
     char grades[4];
 };
 
-int main()
+int main(void)
 {
     struct Student Nick;
 
